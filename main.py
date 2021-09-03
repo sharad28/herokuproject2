@@ -1,25 +1,14 @@
-import pandas as pd
-import matplotlib.pyplot as plt
+
 import pickle
 from pandas_profiling import ProfileReport
-import numpy as np
-from sklearn.preprocessing import PowerTransformer
-from sklearn.preprocessing import QuantileTransformer
-from sklearn.linear_model import LinearRegression
-from flask import Flask, render_template, request,jsonify
+
 from flask_cors import CORS,cross_origin
-import requests
-from bs4 import BeautifulSoup as bs
-from urllib.request import urlopen as uReq
-from sklearn.model_selection import train_test_split
+
 import pandas as pd
-import numpy as np
-from sklearn.preprocessing import StandardScaler
+
 from sklearn.linear_model import Ridge,Lasso, RidgeCV,LassoCV, ElasticNet, ElasticNetCV, LinearRegression
 from sklearn.model_selection import train_test_split
-import statsmodels.api as sm
-import matplotlib.pyplot as plt
-import seaborn as sns
+
 import lg
 lggg = lg.logg()
 
